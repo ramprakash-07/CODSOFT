@@ -15,10 +15,10 @@ html, body {
     margin: 0;
     font-size: 2em;
     min-height: 50px;
-    color: #535353;
+    color: #e3e2e2;
 }
 .container{
-    
+    background-color: #282828;
     height: 500px;
     width: 300px;
     border: 3px solid black;
@@ -45,6 +45,7 @@ html, body {
     'three two one minus'
     'zero eq clear plus';
     gap: 1px;
+    background-color: #282828;
     
 }
 button{
