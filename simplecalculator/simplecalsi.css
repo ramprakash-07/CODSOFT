@@ -1,0 +1,113 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+#outputline {
+    margin: 0;
+    font-size: 2em;
+    min-height: 50px;
+    color: #535353;
+}
+.container{
+    
+    height: 500px;
+    width: 300px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.show{
+    border: 3px solid black;
+    flex-basis: 15%;
+}
+.numpadcontainer{
+    border: 3px solid black;
+    flex-basis: 100%;
+    display: grid;
+    grid-template-areas: 
+    'nine eight seven divi'
+    'six five four mul'
+    'three two one minus'
+    'zero eq clear plus';
+    gap: 1px;
+    
+}
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #4a90e2; 
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+button:hover{
+    background-color: #357ABD;
+    
+    transform: translateY(-2px);
+}
+.clear{
+    background-color: rgb(195, 79, 79);
+    grid-area: clear;
+}
+.clear:hover{
+    background-color: rgb(159, 67, 67);
+}
+
+.eq{
+    grid-area: eq;
+}
+.plus{
+    grid-area: plus;
+}
+.minus{
+    grid-area: minus;
+}
+.mul{
+    grid-area: mul;
+}
+.divi{
+    grid-area: divi;
+}
+.nine{
+grid-area: nine;
+}
+
+.eight{
+grid-area: eight;
+}
+.seven{
+grid-area: seven;
+}
+.six{
+grid-area: six;
+}
+.five{
+grid-area: five;
+}
+.four{
+grid-area: four;
+}
+.three{
+grid-area: three;
+}
+.two{
+grid-area: two;
+}
+.one{
+grid-area: one;
+}

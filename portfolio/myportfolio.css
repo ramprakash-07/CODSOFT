@@ -1,11 +1,20 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
 .header{
     display: flex;
-    margin: 5px;
+    
     padding:10px;
+    background-color: black;
     
     
 }
 .heading{
+    padding-top: 20px;
+    padding-left: 10px ;
+    color: white;
+    font-size: 35px;
     flex-basis: 50%;
 }
 .buttons1{
@@ -15,6 +24,29 @@
     justify-content: space-between;
 }
 .h1buttons{
+    height: 35px;
    margin: 25px; 
+    
+}
+.about{
+    margin-top: 100px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.intro{
+   
+    font-size:60px ;
+}
+.abtme{
+    font-size: large;
+    height: 100px;
+    width: 600px;
+    line-height: 2;
+}
+.abtimg{
+    margin-left: 75px;
+    height: 400px;
+    width: 600px;
     
 }
