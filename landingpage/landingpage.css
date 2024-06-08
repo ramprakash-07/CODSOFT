@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --textcolor:#F5F5F5;
+    --bgcolor:#333333;
+    --text1color: white;
+    --headercolor: #003366; 
+    --buttoncolor: #40E0D0; 
+}
+body{
+    background-color: var(--text1color);
+    color:var(--textcolor);
+    font-family: Arial, sans-serif;
+}
+.topbox{
+    display: flex;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    justify-content: space-around;
+    height: 124px;
+    background: #003366;
+    background-blend-mode: normal;
+}
+.links{
+    display: flex;
+    gap:15px;
+}
+    .linkedin,
+    .instagram,
+    .whatsapp,
+    .twitter {
+                width: 36px;
+                height: 36px;
+                
+            }
+.contactus{
+    color: var(--textcolor);;
+}
+.logo{
+    display: flex;
+    height: 224px;
+    background-color:white ;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoname{
+    display: flex;
+    align-items: center;
+    color: var(--bgcolor);
+}
+.encrypted{
+    height: 147px;
+    width: 147px;
+}
+.home,
+.about,
+.examples{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 100px;
+    background-color:#333333;
+    color: var(--textcolor);;
+    font-weight: bolder;
+    transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out;
+}
+.examples{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home:hover,
+.about:hover,
+.examples:hover{
+    background-color:white;
+    color: #333333;
+}
+hr{
+    height: 5px;
+    background-color: black;
+}
+.contentcontainer{
+    display: flex;
+    height: 741px;
+    background-color: var(--text1color);
+    color: var(--bgcolor);
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+.img1{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border-radius: 10%;
+    padding-right: 40px;
+}
+.hcontent{
+    font-size: 50px;
+    color: var(--headercolor);;
+}
+.pcontent{
+    font-size: 25px;
+    color: var(--bgcolor);;
+}
+.creativity{
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:280px;
+}
+.rocket,
+.time,
+.star{
+    display: flex;
+    height: 69px;
+    width: 127px;
+    align-items: center;
+}
+.rocketimg,
+.starimg,
+.timeimg{
+    height: 69px;
+    width: 69px;
+}
+.hrocket,
+.hstar,
+.htime{
+    font-size: 40px;
+    color: var(--textcolor);;
+}
+
