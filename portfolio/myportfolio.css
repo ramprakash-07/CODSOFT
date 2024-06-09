@@ -54,6 +54,9 @@ body{
     background-color: rgb(188, 60, 60);
     
 }
+hr{
+    border: 0px solid black;
+}
 .about{
     margin-top: 200px;
     padding-left: 15%;
@@ -118,7 +121,7 @@ body{
     font-size: 40px;
 }
 .project{
-    position: absolute;
+    
     width: 1296px;
     height: 590px;
 }
@@ -160,14 +163,69 @@ body{
     
 }
 .pimage1{
-    
+    position: absolute;
+    top: 50%;
     
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 .pimage2{
-   
-  width: 100px;
-  height: 100px;
-  transform: rotate(180deg);
+   position: absolute;
+   top: 50%;
+   left: 0;
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.slides{
+    position: absolute;
+    transform: translateX(150px);
+    bottom: 0;
+}
+.slide{
+    width: 959px;
+    height: 461px;
+    display: none;
+}
+img.displayslide{
+    display:block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+.contactcontainer{
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialmedia{
+    border-right: 5px solid white;
+    padding-right: 15px;
+}
+
+.linkedin,
+.whatsapp,
+.twitter,
+.instagram{
+    padding-left: 10px;
+    height: 50px;
+    width:50px;
+}
+.numberemail{
+    margin-left: 30px;
+    
+}
+.hcontact{
+    color:rgb(188, 60, 60);
+}
+.copy{
+    display: flex;
+    justify-content: center;
 }
