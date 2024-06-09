@@ -135,4 +135,60 @@ hr{
     font-size: 40px;
     color: var(--textcolor);;
 }
+.aboutcontainer{
+    height: 745px;
+    display: block;
+    
+}
+.habout{
+    color: var(--headercolor);;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+.dabout{
+    display: flex;
+    background-color: #003366;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
 
+.slide{
+    width: 620px;
+    height: 460px;
+    display: none;
+}
+img.displayslide{
+    display:block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.prev{
+    position: relative;
+    transform: translateX(-80px);
+    height: 60px;
+    width: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+.prev:hover{
+    opacity: 1;
+}
+.next{
+    position: relative;
+    transform: translateX(80px);
+    height: 60px;
+    width: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.next:hover{
+    opacity: 1;
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}

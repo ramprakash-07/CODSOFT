@@ -24,7 +24,7 @@
         </div>
         <div class="navbar">
             <button onclick="location.href='#homeid'" class="home">HOME</button>
-            <button class="about">ABOUT</button>
+            <button onclick="location.href='#hrabout'" class="about">ABOUT</button>
             <button class="examples">EXAMPLES</button>
         </div>
     </div>
@@ -56,7 +56,22 @@
             <h2 class="hstar">PERFECT</h2>
         </div>
     </div>
-    <hr>
+    <hr id="hrabout">
+    <div class="aboutcontainer">
+        <h1 class="habout">ABOUT</h1>
+        <div class="dabout">
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <div class="slides">
+                <img src="1.jpg" alt="" class="slide">
+                <img src="2.jpg" alt="" class="slide">
+                <img src="3.jpg" alt="" class="slide">
+                <img src="4.jpg" alt="" class="slide">
+            </div>
+            
 
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+    </div>
+<script src="landingpage.js"></script>
 </body>
 </html>
